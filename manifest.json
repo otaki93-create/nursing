@@ -1,0 +1,13 @@
+{
+  "name": "薬剤検索ノート",
+  "short_name": "薬剤ノート",
+  "description": "看護学生のための治療薬リファレンス",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FFFBF2",
+  "theme_color": "#FF6B6B",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

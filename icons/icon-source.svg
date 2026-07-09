@@ -1,0 +1,40 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB13C"/>
+      <stop offset="55%" stop-color="#FF6B6B"/>
+      <stop offset="100%" stop-color="#FF7EB6"/>
+    </linearGradient>
+    <linearGradient id="capsuleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFE9DE"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1024" height="1024" fill="url(#bgGrad)"/>
+
+  <!-- soft decorative circles -->
+  <circle cx="880" cy="150" r="90" fill="#ffffff" opacity="0.12"/>
+  <circle cx="130" cy="900" r="120" fill="#ffffff" opacity="0.10"/>
+
+  <!-- capsule pill, tilted -->
+  <g transform="translate(512,470) rotate(-35)">
+    <rect x="-230" y="-95" width="460" height="190" rx="95" fill="url(#capsuleGrad)" stroke="#ffffff" stroke-width="10"/>
+    <path d="M 0 -95 L 0 95" stroke="#FF6B6B" stroke-width="10"/>
+    <rect x="-230" y="-95" width="230" height="190" rx="95" fill="#FF8CC8"/>
+    <path d="M -230 -95 h 115 a 95 95 0 0 1 0 190 h -115 z" fill="#FF8CC8"/>
+  </g>
+
+  <!-- magnifier accent -->
+  <g transform="translate(700,730)">
+    <circle cx="0" cy="0" r="88" fill="none" stroke="#ffffff" stroke-width="34"/>
+    <line x1="62" y1="62" x2="150" y2="150" stroke="#ffffff" stroke-width="38" stroke-linecap="round"/>
+  </g>
+
+  <!-- small sparkle accents -->
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="230" cy="260" r="10"/>
+    <circle cx="270" cy="230" r="6"/>
+    <circle cx="770" cy="320" r="8"/>
+  </g>
+</svg>
